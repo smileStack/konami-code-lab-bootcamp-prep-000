@@ -6,7 +6,7 @@ function init() {
 var i=0;
   document.body.addEventListener('keydown', (e)=>{
     if(i == code.length-1){ //if reach end of array
-      if((e.which || e.detail) === code[i]){ //if key val is equal to array
+      if(parseInt(e.which || e.detail) === code[i]){ //if key val is equal to array
       window.alert("congratulatory message"); //alert
       }
     i=0;
