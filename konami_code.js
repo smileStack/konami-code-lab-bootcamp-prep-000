@@ -11,7 +11,7 @@ var i=0;
       i=0;
     }
     console.log("index "   + i);
-    console.log("e.which " e.which);
+    console.log("e.which " + e.which);
     console.log("code[i] " + code[i]);
     console.log("e.which || e.detail " + (e.which || e.detail));
 
