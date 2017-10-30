@@ -13,7 +13,7 @@ var i=0;
     console.log("index "   + i);
     console.log("e.which " e.which);
     console.log("code[i] " + code[i]);
-    console.log("e.which || e.detail " +e.which || e.detail);
+    console.log("e.which || e.detail " + (e.which || e.detail));
 
     console.log((e.which || e.detail) === code[i]);
       if((e.which || e.detail) === code[i]){ //if key val is equal to array
