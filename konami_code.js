@@ -4,7 +4,7 @@ init();
 
 function init() {
 var i=0;
-  document.addEventListener('keydown', (e)=>{
+  document.body.addEventListener('keydown', (e)=>{
     if(i == code.length-1){ //if reach end of array
       if((e.which || e.detail) === code[i]){ //if key val is equal to array
       alert("congratulatory message"); //alert
