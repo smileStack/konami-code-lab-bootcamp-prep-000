@@ -7,6 +7,7 @@ var i=0;
   document.addEventListener('keydown', (e)=>{
     if(i == code.length-1){ //if reach end of array
       i=0;
+
       alert("congratulatory message"); //alert
     }
     console.log("index "   + i);
