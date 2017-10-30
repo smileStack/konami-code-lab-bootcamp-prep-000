@@ -6,9 +6,10 @@ function init() {
 var i=0;
   document.addEventListener('keydown', (e)=>{
     if(i == code.length-1){ //if reach end of array
-      i=0;
-
+      if((e.which || e.detail) === code[i]){ //if key val is equal to array
       alert("congratulatory message"); //alert
+      }
+    i=0;
     }
     console.log("index "   + i);
     console.log("e.which " + e.which);
