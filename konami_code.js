@@ -17,7 +17,7 @@ var i=0;
     console.log("e.which || e.detail " + (e.which || e.detail));
 
     console.log(parseInt(e.which || e.detail) === code[i]);
-      if((e.which || e.detail) === code[i]){ //if key val is equal to array
+      if(parseInt(e.which || e.detail) === code[i]){ //if key val is equal to array
         i++;
       }else {
         i=0;
